@@ -16,8 +16,8 @@
                (base32
                 "0h5m5x2fqa61argilz41a0vkkk7drbiap6qy6bc77nvr55syh6c9"))))
     (build-system binary-build-system)
-    (arguments (#:validate-runpath? #f))
-    (native-inputs (list (specification->package "unzip")))
+    (arguments `(#:validate-runpath? #f))
+    (native-inputs (list unzip))
     (synopsis "Command line tools for Android development.")
     (description "Various command line tools.")
     (home-page "https://developer.android.com")
