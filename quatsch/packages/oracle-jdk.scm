@@ -13,7 +13,7 @@
               (uri (string-append "https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz"))
               (sha256
                (base32
-                "8919e8752979db73d8321e9babe2caedcc393750817c1a5f56c128ec442fb540"))))
+                "0ms6fjkb37kz5nk27ki457sy8lpzk9ndd83l9lms1pxj7fijidbl"))))
     (build-system binary-build-system)
     (synopsis "Oracle JDK")
     (description "The development kit for the Java prgograming language")

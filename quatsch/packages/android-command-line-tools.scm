@@ -14,7 +14,7 @@
               (uri (string-append "https://dl.google.com/android/repository/commandlinetools-linux-10406996_latest.zip"))
               (sha256
                (base32
-                "8919e8752979db73d8321e9babe2caedcc393750817c1a5f56c128ec442fb540"))))
+                "0h5m5x2fqa61argilz41a0vkkk7drbiap6qy6bc77nvr55syh6c9"))))
     (build-system binary-build-system)
     (arguments (#:validate-runpath? #f))
     (native-inputs (list (specification->package "unzip")))
